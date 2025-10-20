@@ -1,0 +1,22 @@
+{
+  "name": "landing-page-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A modern, responsive landing page built with React and Vite",
+  "keywords": ["landing-page", "react", "vite", "responsive", "modern"],
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "vite": "^7.1.11"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
