@@ -197,3 +197,25 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* New hero section styles (higher contrast) */
+.hero-section {
+  padding: 3rem 1rem;
+  text-align: center;
+  background: var(--card-bg);
+  color: var(--text-color);
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+  text-shadow: 0 1px 0 rgba(255,255,255,0.02);
+}
+
+.hero-sub {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+  opacity: 0.9;
+}
