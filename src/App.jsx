@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Header from './components/Header'
+import Hero from './components/Hero'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,20 +16,7 @@ function App() {
       </header>
       
       <main className="main">
-        <section className="hero">
-          <div className="container">
-            <h2>Welcome to Your Landing Page</h2>
-            <p className="hero-description">
-              A modern, responsive landing page built with React, Vite, and deployed via GitHub Pages.
-            </p>
-            <div className="cta-buttons">
-              <button className="btn btn-primary" onClick={() => setCount((count) => count + 1)}>
-                Click me ({count})
-              </button>
-              <button className="btn btn-secondary">Learn More</button>
-            </div>
-          </div>
-        </section>
+        <Hero />
 
         <section className="features">
           <div className="container">
