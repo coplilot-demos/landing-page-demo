@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  // Serve assets under the repository path so the Pages artifact resolves them correctly
   base: '/landing-page-demo/',
   build: {
     outDir: 'dist',
