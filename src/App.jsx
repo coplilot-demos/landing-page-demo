@@ -9,12 +9,7 @@ function App() {
 
   return (
     <div className="app">
-      <header className="header">
-        <div className="container">
-          <h1>Modern Landing Page</h1>
-          <p className="tagline">Built with React & Vite</p>
-        </div>
-      </header>
+      <Header />
       
       <main className="main">
   <Hero />
